@@ -1,0 +1,210 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#corpo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: linear-gradient(90deg, rgba(10, 142, 25, 1) 50%, rgba(5, 3, 3, 1) 50%)
+}
+
+#loginP {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    max-width: 60%;
+    width: 100%;
+    height: 35rem;
+    margin-top: 2rem;
+    border-radius: 20px;
+    padding: 4px;
+    border: solid #ffffff 2px;
+}
+
+.cabeca {
+    border: solid 1px gray;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
+    gap: 50px;
+    justify-content: space-around;
+}
+
+#usuario {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+h1 {
+    margin-top: -0.3rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#cantores {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 40%;
+    padding: 10px;
+    margin: 2px;
+    height: 10rem;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px rgb(210, 187, 11);
+    overflow-y: scroll;
+}
+
+#cantores::-webkit-scrollbar {
+    width: 12px;
+    background-color: #33ca40;
+}
+
+#cantores::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(1, 1, 1, 0.3);
+    background-color: #545252;
+}
+
+p {
+    font-size: 18px;
+    margin-top: -0.3rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.cardcantores {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding:5px;
+    justify-content: space-between;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: #fff;
+    color: #000000;
+    justify-content: center;
+    transition: 1s;
+}
+.card:hover{
+    background: linear-gradient(117deg, rgba(69,224,30,0.9080882352941176) 30%, rgba(14,23,16,0.8184523809523809) 76%);
+    color:#fff;
+}
+
+
+@media (max-width:870px){
+    #loginP{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+    }
+    .cabeca{
+        /* margin-top: -24rem; */
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    #cantores{
+        overflow-x: scroll;
+    }
+    #cantores::-webkit-scrollbar {
+        width: 10px;
+        height: 0.2rem;
+        background-color: #33ca40;
+    }
+    #cantores::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 6px rgba(1, 1, 1, 0.3);
+        background-color: #545252;
+    }
+    
+}
+@media (max-width:700px){
+    #loginP{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+        margin-top: 0.5rem;
+    }
+    .cabeca{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    #usuario{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 15px;
+        margin-top: -1rem;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    #cantores{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+        height: 7rem;
+        overflow-x: scroll;
+        margin-top: -2.5rem;
+    }
+    #cantores::-webkit-scrollbar {
+        width: 4px;
+        height: 0.6rem;
+        background-color: #33ca40;
+    }
+    #cantores::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 6px rgba(1, 1, 1, 0.3);
+        background-color: #545252;
+    }
+    
+    
+}
+@media (max-width:561px){
+    #formulario{
+        width: 70%;
+    }
+    #loginP{
+        width: 100%;
+    }
+}
