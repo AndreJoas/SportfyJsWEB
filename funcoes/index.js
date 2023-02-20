@@ -1,3 +1,10 @@
+var x = document.getElementById("corpo");
+x.addEventListener("click", function(){
+    const a = document.getElementById("musica")
+    a.play(); 
+})
+
+
 var botaoN = document.getElementById("bts1");
 var botaoL = document.getElementById("bts2");
 var fundoCorpo = document.getElementById("corpo");
@@ -20,3 +27,4 @@ function Dia(){
     fundoCorpo.style.background= "radial-gradient(circle, rgba(9,121,39,1) 10%, rgba(19,47,27,1) 65%)";
     fundoCorpo.style.color="#fff";
 }
+
