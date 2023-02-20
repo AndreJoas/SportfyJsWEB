@@ -5,13 +5,13 @@
 
 }
 
-#corpo {
+#corpo2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     color: #fff;
-    background: linear-gradient(90deg, rgba(10, 142, 25, 1) 50%, rgba(5, 3, 3, 1) 50%)
+    background: linear-gradient(90deg, rgba(10, 142, 25, 1) 50%, rgba(5, 3, 3, 1) 50%);
 }
 
 #loginP {
@@ -21,15 +21,14 @@
     justify-content: start;
     max-width: 60%;
     width: 100%;
-    height: 35rem;
+    height: 38rem;
     margin-top: 2rem;
     border-radius: 20px;
     padding: 4px;
     border: solid #ffffff 2px;
 }
 
-.cabeca {
-    border: solid 1px gray;
+#cabeca {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -37,6 +36,7 @@
     max-width: 100%;
     width: 100%;
     gap: 50px;
+    border-radius: 40px 40px 0 0;
     justify-content: space-around;
 }
 
@@ -68,7 +68,6 @@ h1 {
     height: 10rem;
     align-items: center;
     justify-content: center;
-    border: solid 1px rgb(210, 187, 11);
     overflow-y: scroll;
 }
 
@@ -96,10 +95,11 @@ p {
     flex-direction: row;
     align-items: center;
     gap: 20px;
-    padding:5px;
+    padding: 5px;
     justify-content: space-between;
 }
-.card{
+
+.card {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -112,74 +112,276 @@ p {
     justify-content: center;
     transition: 1s;
 }
-.card:hover{
-    background: linear-gradient(117deg, rgba(69,224,30,0.9080882352941176) 30%, rgba(14,23,16,0.8184523809523809) 76%);
-    color:#fff;
+
+.card:hover {
+    background: linear-gradient(117deg, rgba(69, 224, 30, 0.9080882352941176) 30%, rgba(14, 23, 16, 0.8184523809523809) 76%);
+    color: #fff;
 }
 
 
-@media (max-width:870px){
-    #loginP{
+#listaMusicas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    height: 20rem;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+}
+
+#listaMusicas::-webkit-scrollbar {
+    width: 12px;
+    background-color: #33ca40;
+}
+
+#listaMusicas::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(1, 1, 1, 0.3);
+    background-color: #545252;
+}
+
+/* ----------- */
+#cardMusica1 {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+    justify-content: start;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 1s;
+}
+
+#cardMusica1:hover {
+    background: linear-gradient(117deg, rgba(69, 224, 30, 0.9080882352941176) 30%, rgba(14, 23, 16, 0.8184523809523809) 76%);
+    color: #fff;
+}
+
+/* --------------- */
+/* ----------- */
+#cardMusica2 {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+    justify-content: start;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 1s;
+}
+
+#cardMusica2:hover {
+    background: linear-gradient(117deg, rgba(69, 224, 30, 0.9080882352941176) 30%, rgba(14, 23, 16, 0.8184523809523809) 76%);
+    color: #fff;
+}
+
+/* ----------- */
+#cardMusica3 {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+    justify-content: start;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 1s;
+}
+
+#cardMusica3:hover {
+    background: linear-gradient(117deg, rgba(69, 224, 30, 0.9080882352941176) 30%, rgba(14, 23, 16, 0.8184523809523809) 76%);
+    color: #fff;
+}
+
+/* ----------- */
+#cardMusica4 {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+    justify-content: start;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 1s;
+}
+
+#cardMusica4:hover {
+    background: linear-gradient(117deg, rgba(69, 224, 30, 0.9080882352941176) 30%, rgba(14, 23, 16, 0.8184523809523809) 76%);
+    color: #fff;
+}
+
+/* ----------- */
+#cardMusica5 {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+    justify-content: start;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 1s;
+}
+
+#cardMusica5:hover {
+    background: linear-gradient(117deg, rgba(69, 224, 30, 0.9080882352941176) 30%, rgba(14, 23, 16, 0.8184523809523809) 76%);
+    color: #fff;
+}
+
+/* ----------- */
+
+
+.ftautor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.infor {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    gap: 5px;
+    font-weight: 800;
+    margin-top: -2rem;
+    width: 60%;
+}
+
+.coracao {
+    color: #fff;
+    transition: 1s;
+    cursor: pointer;
+    font-size: 30px;
+    width: 20%;
+}
+
+.coracao:hover {
+    color: #e50000;
+}
+
+.bts {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    margin-top: 0.6rem;
+    justify-content: center;
+    width: 100%;
+}
+
+#bts1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#bts1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    width: 10%;
+    outline: none;
+    border: none;
+    background: rgb(8, 181, 8);
+    color: #fff;
+    cursor: pointer;
+    transition: 1s;
+}
+
+@media (max-width:870px) {
+    #loginP {
         display: flex;
         flex-direction: column;
         align-items: center;
         max-width: 100%;
     }
-    .cabeca{
+
+    #cabeca {
         /* margin-top: -24rem; */
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-around;
     }
-    #cantores{
+
+    #cantores {
         overflow-x: scroll;
     }
+
     #cantores::-webkit-scrollbar {
         width: 10px;
         height: 0.2rem;
         background-color: #33ca40;
     }
+
     #cantores::-webkit-scrollbar-thumb {
         border-radius: 10px;
         -webkit-box-shadow: inset 0 0 6px rgba(1, 1, 1, 0.3);
         background-color: #545252;
     }
-    
+
 }
-@media (max-width:700px){
-    #loginP{
+
+@media (max-width:700px) {
+    #loginP {
         display: flex;
         flex-direction: column;
         align-items: center;
         max-width: 100%;
         margin-top: 0.5rem;
     }
-    .cabeca{
+
+    #cabeca {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
     }
-    #usuario{
+
+    #usuario {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100%;
     }
-    h1{
+
+    h1 {
         font-size: 2rem;
     }
-    p{
+
+    p {
         font-size: 15px;
         margin-top: -1rem;
         display: flex;
         justify-content: center;
         width: 100%;
     }
-    #cantores{
+
+    #cantores {
         display: flex;
-        flex-direction:column;
+        flex-direction: column;
         align-items: center;
         width: 100%;
         padding: 0;
@@ -187,24 +389,38 @@ p {
         overflow-x: scroll;
         margin-top: -2.5rem;
     }
+
     #cantores::-webkit-scrollbar {
         width: 4px;
         height: 0.6rem;
         background-color: #33ca40;
     }
+
     #cantores::-webkit-scrollbar-thumb {
         border-radius: 10px;
         -webkit-box-shadow: inset 0 0 6px rgba(1, 1, 1, 0.3);
         background-color: #545252;
     }
-    
-    
-}
-@media (max-width:561px){
-    #formulario{
-        width: 70%;
+
+    #listaMusicas {
+        overflow-y: scroll;
     }
-    #loginP{
+
+    #listaMusicas::-webkit-scrollbar {
+        width: 9px;
+        background-color: #33ca40;
+    }
+
+    #listaMusicas::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 6px rgba(1, 1, 1, 0.3);
+        background-color: #545252;
+    }
+
+}
+
+@media (max-width:561px) {
+    #loginP {
         width: 100%;
     }
 }
