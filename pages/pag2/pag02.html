@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../estilosCss/page02.css">
+    <link rel="stylesheet" href="../../estilosCss/marilia.css">
   
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="../../pages/pag2/funçoes.js"></script>
@@ -19,44 +20,46 @@
                 <h1>Olá, Usuario/a</h1>
                 <p>Obrigado por ter acessado!!!</p>
                 <p>Clique no artista que deseja ouvir</p>
+                <p>Apos aparecer a lista de musica</p>
+                <p>Aumente o volume e clique sobre a imagem da musica</p>
             </div>
             <div id="cantores">
                 <div class="cardcantores">
-                    <div id="card1" onclick="Skiller()">
-                        <div class="imge"><img src="../../imagens/cantor.svg"></div>
+                    <div class="card1" onclick="Skiller()">
+                        <div class="imge"><img src="../../imagens/michael.jpg" width="50" height="50"></div>
                         <div class="texto">Michael Jackson</div>
                     </div>
-                    <div class="card">
+                    <div class="card2" onclick="Marilia()">
+                        <div class="imge"><img src="../../imagens/marilia.jpg" width="65" height="50"></div>
+                        <div class="texto">Marília Mendonça</div>
+                    </div>
+                </div>
+                <div class="cardcantores">
+                    <div class="card3">
+                        <div class="imge"><img src="../../imagens/marron5.jpg" width="70" height="50"></div>
+                        <div class="texto">Marron  5</div>
+                    </div>
+                    <div class="card4">
+                        <div class="imge"><img src="../../imagens/dbz.png" width="70" height="50"></div>
+                        <div class="texto">Dragon Ball Z</div>
+                    </div>
+                </div>
+                <div class="cardcantores">
+                    <div class="card5">
+                        <div class="imge"><img src="../../imagens/naruto.png" width="70" height="65"></div>
+                        <div class="texto">naruto</div>
+                    </div>
+                    <div class="card6">
                         <div class="imge"><img src="../../imagens/cantor.svg"></div>
                         <div class="texto">Michael Jackson</div>
                     </div>
                 </div>
                 <div class="cardcantores">
-                    <div class="card">
+                    <div class="card7">
                         <div class="imge"><img src="../../imagens/cantor.svg"></div>
                         <div class="texto">Michael Jackson</div>
                     </div>
-                    <div class="card">
-                        <div class="imge"><img src="../../imagens/cantor.svg"></div>
-                        <div class="texto">Michael Jackson</div>
-                    </div>
-                </div>
-                <div class="cardcantores">
-                    <div class="card">
-                        <div class="imge"><img src="../../imagens/cantor.svg"></div>
-                        <div class="texto">Michael Jackson</div>
-                    </div>
-                    <div class="card">
-                        <div class="imge"><img src="../../imagens/cantor.svg"></div>
-                        <div class="texto">Michael Jackson</div>
-                    </div>
-                </div>
-                <div class="cardcantores">
-                    <div class="card">
-                        <div class="imge"><img src="../../imagens/cantor.svg"></div>
-                        <div class="texto">Michael Jackson</div>
-                    </div>
-                    <div class="card">
+                    <div class="card8">
                         <div class="imge"><img src="../../imagens/cantor.svg"></div>
                         <div class="texto">Michael Jackson</div>
                     </div>
@@ -66,8 +69,10 @@
         </div>
 
         <div id="listaMusicas">
-
-            <div id="cardMusica1"></div>
+            <!-- <div id="cardMusica1"></div>
+            <div id="cardMusica2"></div>
+            <div id="cardMusica3"></div>
+            <div id="cardMusica4"></div> -->
             <!-- <div id="cardMusica1">
                 <div class="ftautor"><img src="../../imagens/musci.svg"></div>
                 <div class="infor">
@@ -109,6 +114,7 @@
                 <p class="coracao">&hearts;</p>
             </div> -->
         </div>
+        
         <div class="bts">
             <button id="bts1" onclick="Noite()" style="border: solid 2px rgb(255, 255, 255);">N</button>
             <button id="bts2" onclick="Dia()" style="border: solid 2px rgb(255, 255, 255);">L</button>

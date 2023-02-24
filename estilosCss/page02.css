@@ -119,6 +119,175 @@ p {
 }
 
 
+
+
+
+/* ==================== */
+.card1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: #fff;
+    color: #000000;
+    justify-content: center;
+    transition: 1s;
+}
+
+.card1:hover {
+    background: linear-gradient(117deg, rgba(69, 224, 30, 0.9080882352941176) 30%, rgba(14, 23, 16, 0.8184523809523809) 76%);
+    color: #fff;
+}
+
+/* ==================== */
+.card2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: #fff;
+    color: #000000;
+    justify-content: center;
+    transition: 1s;
+}
+
+.card2:hover {
+    background: linear-gradient(117deg, rgba(69, 224, 30, 0.9080882352941176) 30%, rgba(14, 23, 16, 0.8184523809523809) 76%);
+    color: #fff;
+}
+
+/* ==================== */
+.card4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: #fff;
+    color: #000000;
+    justify-content: center;
+    transition: 1s;
+}
+
+.card4:hover {
+    background: linear-gradient(117deg, rgba(69, 224, 30, 0.9080882352941176) 30%, rgba(14, 23, 16, 0.8184523809523809) 76%);
+    color: #fff;
+}
+
+/* ==================== */
+.card3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: #fff;
+    color: #000000;
+    justify-content: center;
+    transition: 1s;
+}
+
+.card3:hover {
+    background: linear-gradient(117deg, rgba(69, 224, 30, 0.9080882352941176) 30%, rgba(14, 23, 16, 0.8184523809523809) 76%);
+    color: #fff;
+}
+/* ==================== */
+.card5 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: #fff;
+    color: #000000;
+    justify-content: center;
+    transition: 1s;
+}
+
+.card5:hover {
+    background: linear-gradient(117deg, rgba(69, 224, 30, 0.9080882352941176) 30%, rgba(14, 23, 16, 0.8184523809523809) 76%);
+    color: #fff;
+}
+
+
+
+
+/* ==================== */
+.card6 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: #fff;
+    color: #000000;
+    justify-content: center;
+    transition: 1s;
+}
+
+.card6:hover {
+    background: linear-gradient(117deg, rgba(69, 224, 30, 0.9080882352941176) 30%, rgba(14, 23, 16, 0.8184523809523809) 76%);
+    color: #fff;
+}
+
+/* ==================== */
+.card7 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: #fff;
+    color: #000000;
+    justify-content: center;
+    transition: 1s;
+}
+
+.card7:hover {
+    background: linear-gradient(117deg, rgba(69, 224, 30, 0.9080882352941176) 30%, rgba(14, 23, 16, 0.8184523809523809) 76%);
+    color: #fff;
+}
+
+/* ==================== */
+.card8 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: #fff;
+    color: #000000;
+    justify-content: center;
+    transition: 1s;
+}
+
+.card8:hover {
+    background: linear-gradient(117deg, rgba(69, 224, 30, 0.9080882352941176) 30%, rgba(14, 23, 16, 0.8184523809523809) 76%);
+    color: #fff;
+}
+
+
+
+
+
 #listaMusicas {
     display: flex;
     flex-direction: row;
