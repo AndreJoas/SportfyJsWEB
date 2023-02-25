@@ -24,10 +24,11 @@ function Noite() {
 
 function Dia() {
     carde.style.border= "solid 2px #000000";
-    fundoLogin.style.border = "solid 2px #000000";
+    fundoLogin.style.border = "solid 2px #fff";
     fundoFormulario.style.border = "solid 3px #000000";
     fundoCorpo.style.background = "radial-gradient(circle, rgba(9,121,39,1) 10%, rgba(19,47,27,1) 65%)";
     fundoCorpo.style.color = "#fff";
+   
     fundoFormulario.style.color = "#fff";
    
     
