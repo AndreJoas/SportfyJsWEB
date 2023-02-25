@@ -18,6 +18,15 @@ const card2=$(document).ready(function(){
     })
 });
 
+const card3=$(document).ready(function(){
+    $(".card3").click(function(){
+        $(function(){
+            $("#listaMusicas").load("musicas.html #cardMusica11, #cardMusica12, #cardMusica13, #cardMusica14, #cardMusica15");
+        });
+    })
+});
+
+
 
 
 
@@ -31,3 +40,8 @@ function Marilia(){
     document.getElementById("listaMusicas").innerHTML=card2;
 
 }
+function Maroon5(){
+    document.getElementById("listaMusicas").innerHTML=card3;
+
+}
+
