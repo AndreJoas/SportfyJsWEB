@@ -28,6 +28,25 @@ const card3=$(document).ready(function(){
 
 
 
+const card4=$(document).ready(function(){
+    $(".card4").click(function(){
+        $(function(){
+            $("#listaMusicas").load("musicas.html #cardMusica16, #cardMusica17, #cardMusica18, #cardMusica19, #cardMusica20");
+        });
+    })
+});
+
+
+const card5=$(document).ready(function(){
+    $(".card4").click(function(){
+        $(function(){
+            $("#listaMusicas").load("musicas.html #cardMusica21, #cardMusica22, #cardMusica23, #cardMusica24, #cardMusica25");
+        });
+    })
+});
+
+
+
 
 
 function Skiller(){
@@ -45,3 +64,12 @@ function Maroon5(){
 
 }
 
+function Dbz(){
+    document.getElementById("listaMusicas").innerHTML=card4;
+
+}
+
+function Naruto(){
+    document.getElementById("listaMusicas").innerHTML=card5;
+
+}
