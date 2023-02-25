@@ -38,7 +38,7 @@ const card4=$(document).ready(function(){
 
 
 const card5=$(document).ready(function(){
-    $(".card4").click(function(){
+    $(".card5").click(function(){
         $(function(){
             $("#listaMusicas").load("musicas.html #cardMusica21, #cardMusica22, #cardMusica23, #cardMusica24, #cardMusica25");
         });
