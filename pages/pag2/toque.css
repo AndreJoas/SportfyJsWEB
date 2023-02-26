@@ -1,0 +1,19 @@
+#musica{
+    max-width: 100%;
+    width: 70%;
+    border-radius: px;
+    height: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -2rem;
+    background-color: #fff;
+    transition: 1s;
+    transform: scale(0.9);
+}
+#musica:hover{
+    background: linear-gradient(117deg, rgba(14, 23, 16, 0.8184523809523809) 76% , rgba(69, 224, 30, 0.9080882352941176) 30%);
+    transform: scale(1);
+}
+
