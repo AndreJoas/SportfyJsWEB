@@ -16,7 +16,7 @@ function Noite() {
     fundoLogin.style.border = "solid 2px #45e01e";
     fundoFormulario.style.border = "solid 2px #45e01e";
     fundoFormulario.style.background = "linear-gradient(90deg,#097927 26%,#010a0d 96%)";
-    fundoFormulario.style.color = "#000000";
+    fundoFormulario.style.color = "#fff";
     fundoCorpo.style.background = "#000000";
 
 
