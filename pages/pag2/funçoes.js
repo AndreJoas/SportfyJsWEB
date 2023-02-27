@@ -47,6 +47,14 @@ const card5 = $(document).ready(function () {
 
 
 
+const card6 = $(document).ready(function () {
+    $(".card6").click(function () {
+        $(function () {
+            $("#listaMusicas").load("musicas.html #cardMusica26, #cardMusica27, #cardMusica28, #cardMusica29, #cardMusica30");
+        });
+    })
+});
+
 
 
 function Skiller() {
@@ -74,5 +82,11 @@ function Naruto() {
 
 }
 
+
+
+function Cdz() {
+    document.getElementById("listaMusicas").innerHTML = card6;
+
+}
 
 
