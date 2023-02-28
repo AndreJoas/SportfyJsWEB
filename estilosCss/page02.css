@@ -411,6 +411,106 @@ p {
 /* ----------- */
 
 
+
+
+#cardMusica31 {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+    justify-content: start;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 1s;
+}
+
+#cardMusica31:hover {
+    background: linear-gradient(117deg, rgba(69, 224, 30, 0.9080882352941176) 30%, rgba(14, 23, 16, 0.8184523809523809) 76%);
+    color: #fff;
+}
+
+/* --------------- */
+/* ----------- */
+#cardMusica32 {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+    justify-content: start;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 1s;
+}
+
+#cardMusica32:hover {
+    background: linear-gradient(117deg, rgba(69, 224, 30, 0.9080882352941176) 30%, rgba(14, 23, 16, 0.8184523809523809) 76%);
+    color: #fff;
+}
+
+/* ----------- */
+#cardMusica33 {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+    justify-content: start;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 1s;
+}
+
+#cardMusica33:hover {
+    background: linear-gradient(117deg, rgba(69, 224, 30, 0.9080882352941176) 30%, rgba(14, 23, 16, 0.8184523809523809) 76%);
+    color: #fff;
+}
+
+/* ----------- */
+#cardMusica34 {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+    justify-content: start;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 1s;
+}
+
+#cardMusica34:hover {
+    background: linear-gradient(117deg, rgba(69, 224, 30, 0.9080882352941176) 30%, rgba(14, 23, 16, 0.8184523809523809) 76%);
+    color: #fff;
+}
+
+/* ----------- */
+#cardMusica35 {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+    justify-content: start;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 1s;
+}
+
+#cardMusica35:hover {
+    background: linear-gradient(117deg, rgba(69, 224, 30, 0.9080882352941176) 30%, rgba(14, 23, 16, 0.8184523809523809) 76%);
+    color: #fff;
+}
+
+/* ----------- */
+
+
 .ftautor {
     display: flex;
     flex-direction: column;
