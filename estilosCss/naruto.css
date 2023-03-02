@@ -607,6 +607,106 @@ button{
 
 
 
+/* ----------- */
+#cardMusica36 {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+    justify-content: start;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 1s;
+}
+
+#cardMusica36:hover {
+    background: linear-gradient(117deg, rgba(69, 224, 30, 0.9080882352941176) 30%, rgba(14, 23, 16, 0.8184523809523809) 76%);
+    color: #fff;
+}
+
+/* --------------- */
+/* ----------- */
+#cardMusica37 {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+    justify-content: start;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 1s;
+}
+
+#cardMusica37:hover {
+    background: linear-gradient(117deg, rgba(69, 224, 30, 0.9080882352941176) 30%, rgba(14, 23, 16, 0.8184523809523809) 76%);
+    color: #fff;
+}
+
+/* ----------- */
+#cardMusica38 {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+    justify-content: start;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 1s;
+}
+
+#cardMusica38:hover {
+    background: linear-gradient(117deg, rgba(69, 224, 30, 0.9080882352941176) 30%, rgba(14, 23, 16, 0.8184523809523809) 76%);
+    color: #fff;
+}
+
+/* ----------- */
+#cardMusica39 {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+    justify-content: start;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 1s;
+}
+
+#cardMusica39:hover {
+    background: linear-gradient(117deg, rgba(69, 224, 30, 0.9080882352941176) 30%, rgba(14, 23, 16, 0.8184523809523809) 76%);
+    color: #fff;
+}
+
+/* ----------- */
+#cardMusica40 {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+    justify-content: start;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 1s;
+}
+
+#cardMusica40:hover {
+    background: linear-gradient(117deg, rgba(69, 224, 30, 0.9080882352941176) 30%, rgba(14, 23, 16, 0.8184523809523809) 76%);
+    color: #fff;
+}
+
+/* ----------- */
+
+
+
 
 
 

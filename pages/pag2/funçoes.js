@@ -66,6 +66,18 @@ const card7 = $(document).ready(function () {
 });
 
 
+
+const card8 = $(document).ready(function () {
+    $(".card8").click(function () {
+        $(function () {
+            $("#listaMusicas").load("musicas.html #cardMusica36, #cardMusica37, #cardMusica38, #cardMusica39, #cardMusica40");
+        });
+    })
+});
+
+
+
+
 function Skiller() {
     document.getElementById("listaMusicas").innerHTML = card;
 
@@ -103,5 +115,12 @@ function  Week() {
 
 }
 
+
+
+
+function  Force() {
+    document.getElementById("listaMusicas").innerHTML = card8;
+
+}
 
 
